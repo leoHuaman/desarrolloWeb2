@@ -1,13 +1,11 @@
-
-let Resultado;
-
-
+console.log("(el producto cuesta 1000 y la cantidad deseada es 5)") //pongo esto para que se entienda en la consola
 function sumarProductos(precioUnitario,cantidadDeseada){
-    Resultado = precioUnitario*cantidadDeseada;
-    console.log("en total le costaria " + Resultado);
+    return precioUnitario*cantidadDeseada;
+    
 }
 
-sumarProductos(1000,prompt ("Cuantas unidades de mantecol quiere comprar?"));
+console.log("en total le costaria " + sumarProductos(1000,5));
+
 
 
 
