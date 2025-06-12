@@ -1,0 +1,237 @@
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.gaming-header {
+  background: linear-gradient(45deg, #000000, #434343);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.logo {
+  font-family: "Playwrite FR Moderne", cursive;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-gaming .nav-link {
+  color: #fff !important;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-gaming .nav-link:hover,
+.nav-gaming .nav-link.active {
+  color: #4ecdc4 !important;
+}
+
+.nav-gaming .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  border-radius: 2px;
+}
+
+.carrito-btn {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.carrito-contador {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #ff4757;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.categoria-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.categoria-activa {
+  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 100%) !important;
+}
+
+.producto-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border: none;
+}
+
+
+
+.producto-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.producto-nombre {
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.producto-precio {
+  color: #e74c3c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.cantidad-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.cantidad-btn {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cantidad-display {
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  min-width: 30px;
+  text-align: center;
+}
+
+.agregar-carrito-btn {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+
+.modal-carrito {
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(10px);
+}
+
+.carrito-contenido {
+  background: white;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.carrito-item {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.carrito-eliminar {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #ff4757;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+
+.gaming-footer {
+            background: linear-gradient(45deg, #000000, #434343);
+            color: white;
+            padding: 50px 0 20px;
+        }
+
+        .footer-logo {
+            font-family: "Playwrite FR Moderne", cursive;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+.btn-comprar {
+  background: linear-gradient(45deg, #28a745, #20c997);
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-limpiar {
+  background: linear-gradient(45deg, #dc3545, #c82333);
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}

@@ -1,15 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
-    <h1>hola</h1>
-    <script src="./assets/index.js">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LEO Gaming Store - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 
-    </script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="gaming-header">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                <div class="d-flex align-items-center">
+                    <span class="logo">LEO Gaming Store</span>
+                </div>
+                
+                <ul class="nav nav-gaming">
+                    <li class="nav-item"><a href="/index.html" class="nav-link activo">inicio</a></li>
+                    <li class="nav-item"><a href="./page/tienda.html" class="nav-link">tienda</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ofertas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduccion Section -->
+    <section class="main-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="titulo">LEO GAMING STORE</h1>
+                    <p class="subtitulo">Tu lugar favorito para el gaming de élite</p>
+                    <a href="./page/tienda.html" class="main-btn">Explorar Tienda</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- productos -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-titulo">productos Destacados</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="producto-card">
+                        <img src="./image/auricuralesGamer.png" alt="Auriculares Gamer RGB" class="producto-img">
+                        <h4 class="producto-nombre">Auriculares Gamer RGB</h4>
+                        <div class="producto-precio">$12.000</div>
+                        <a href="./page/tienda.html" class="producto-btn">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="producto-card">
+                        <img src="./image/laptop.png" alt="Laptop Gaming RTX" class="producto-img">
+                        <h4 class="producto-nombre">Laptop Gaming RGB</h4>
+                        <div class="producto-precio">$450.000</div>
+                        <a href="./page/tienda.html" class="producto-btn">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="producto-card">
+                        <img src="./image/silla.png" alt="Silla Gamer Ergonómica" class="producto-img">
+                        <h4 class="producto-nombre">Silla Gamer Económica</h4>
+                        <div class="producto-precio">$95.000</div>
+                        <a href="./page/tienda.html" class="producto-btn">Ver productos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorias Section -->
+    <section class="categorias-section">
+        <div class="container">
+            <h2 class="section-titulo">Categorías</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="categorias-card">
+                        <div class="categorias-icono">🎧</div>
+                        <h3 class="categorias-titulo">Periféricos</h3>
+                        <p class="categorias-descripcion">Auriculares, mice, teclados y más accesorios gaming de alta calidad</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="categorias-card">
+                        <div class="categorias-icono">💻</div>
+                        <h3 class="categorias-titulo">Hardware</h3>
+                        <p class="categorias-descripcion">Laptops, monitores, componentes y equipos de última generación</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="categorias-card">
+                        <div class="categorias-icono">🪑</div>
+                        <h3 class="categorias-titulo">Accesorios</h3>
+                        <p class="categorias-descripcion">Sillas gaming, micrófonos, soportes y todo para tu setup</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="gaming-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="footer-logo">LEO Gaming Store</h3>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-white mb-3">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-white-50">Política de Privacidad</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-white-50">Términos y Condiciones</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-white-50">Soporte</a></li>
+                        <!-- RICKROOOOOOOOOOOOOOLLLL -->
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="text-white-50 mb-0">© 2025 LEO Gaming Store - Talento Tech</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
